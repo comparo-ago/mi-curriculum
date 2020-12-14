@@ -1,3 +1,8 @@
+/*---------------LAYOUT----------------*/
+.main-container{
+    display: flex;
+    width: 1200px;
+}
 /*---------------GENERAL---------------*/
 ul{
     list-style: none;
@@ -34,10 +39,12 @@ article ul{
 /*---------------ASIDE-----------------*/
 .foto {
     border-radius: 50%;
+    width: 100%; 
 }
 aside{
     background-color: #647087;
-
+    width: 30%;
+    margin-right:3%;
 }
 aside *{
     color: white;
@@ -48,4 +55,7 @@ aside h2{
 }
 aside section h2:first-child{
     border-bottom: 5px solid white;
+}
+.references{
+    display: flex;
 }
