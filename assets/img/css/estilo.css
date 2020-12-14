@@ -7,27 +7,39 @@
 ul{
     list-style: none;
 }
+.clear{
+clear: both;
+}
+h1, h2, h3,h4{
+    text-transform: uppercase;
+}
 /*---------------MAIN------------------*/
 main section h2 {
     text-transform:uppercase;
     letter-spacing: 3px;
 }
 .hero{
-    background-color: #F7DDC3;
-    box-shadow: 1px 1px 30px 1px #647087 inset;
+    background-color: #F2B6A0;
+    box-shadow: 1px 1px 30px 1px #8599A6 inset;
+    padding: 15% 0%;
+    text-align: center;
+
     
+}
+.hero h1{
+    letter-spacing: 5px;
 }
 .hero h2{
     color: white;
     border-top: 5px solid white;
-    text-transform: none;
-    letter-spacing: normal;
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
-.aboutme{
-    background-color: #E5DCC5;
-}
-.aboutme h2{
-    background-color: white;
+/*------------------ABOUTME----------------*/
+.aboutme p{
+    line-height: 2em;
+    background-color: #F2EDDC;
+    padding: 10px;
 }
 article h3,
 article h4{
@@ -56,6 +68,34 @@ aside h2{
 aside section h2:first-child{
     border-bottom: 5px solid white;
 }
+/*------------ REFERENCES---------------*/
 .references{
     display: flex;
+    flex-wrap: wrap;
+}
+.references article {
+    width: 35%;
+    background-color: #F2EDDC;
+    text-align:center;
+}
+/*----------------- DL -----------------*/
+dt:last-of-type,
+dd:last-of-type{
+    border-bottom:1px solid white; 
+}
+dd,dt{
+    line-height: 2em;
+    border-top: 1px solid white;
+}
+dl{
+    display: flex;
+    flex-wrap: wrap;
+}
+dt,
+dd{
+    flex-basis:40% ;
+    margin:0 ;
+}
+dt{
+    font-weight: bolder;
 }
