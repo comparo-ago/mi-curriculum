@@ -1,4 +1,51 @@
-/* ASIDE*/
-#foto{
+/*---------------GENERAL---------------*/
+ul{
+    list-style: none;
+}
+/*---------------MAIN------------------*/
+main section h2 {
+    text-transform:uppercase;
+    letter-spacing: 3px;
+}
+.hero{
+    background-color: #F7DDC3;
+    box-shadow: 1px 1px 30px 1px #647087 inset;
+    
+}
+.hero h2{
+    color: white;
+    border-top: 5px solid white;
+    text-transform: none;
+    letter-spacing: normal;
+}
+.aboutme{
+    background-color: #E5DCC5;
+}
+.aboutme h2{
+    background-color: white;
+}
+article h3,
+article h4{
+    font-weight:bold ;
+}
+article ul{
+    list-style-type: square;
+}
+/*---------------ASIDE-----------------*/
+.foto {
     border-radius: 50%;
+}
+aside{
+    background-color: #647087;
+
+}
+aside *{
+    color: white;
+}
+aside h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+aside section h2:first-child{
+    border-bottom: 5px solid white;
 }
