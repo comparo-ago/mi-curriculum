@@ -2,6 +2,8 @@
 .main-container{
     display: flex;
     width: 1200px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
 }
 /*---------------GENERAL---------------*/
 ul{
@@ -13,14 +15,18 @@ clear: both;
 h1, h2, h3,h4{
     text-transform: uppercase;
 }
+.titulo{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 /*---------------MAIN------------------*/
 main section h2 {
     text-transform:uppercase;
     letter-spacing: 3px;
 }
 .hero{
-    background-color: #F2B6A0;
-    box-shadow: 1px 1px 30px 1px #8599A6 inset;
+    background-color: #FF686B;
+    box-shadow: 1px 1px 30px 1px #474747 inset;
     padding: 15% 0%;
     text-align: center;
 
@@ -38,7 +44,7 @@ main section h2 {
 /*------------------ABOUTME----------------*/
 .aboutme p{
     line-height: 2em;
-    background-color: #F2EDDC;
+    background-color: #FFA69E;
     padding: 10px;
 }
 article h3,
@@ -54,12 +60,12 @@ article ul{
     width: 100%; 
 }
 aside{
-    background-color: #647087;
-    width: 30%;
-    margin-right:3%;
+    background-color: #84DCC6;
+    flex-basis: 25%;
+    font-family: 'Lato', sans-serif;
 }
 aside *{
-    color: white;
+    color: white;    
 }
 aside h2{
     text-transform: uppercase;
@@ -75,7 +81,7 @@ aside section h2:first-child{
 }
 .references article {
     width: 35%;
-    background-color: #F2EDDC;
+    background-color: #FFA69E;
     text-align:center;
 }
 /*----------------- DL -----------------*/
@@ -98,4 +104,14 @@ dd{
 }
 dt{
     font-weight: bolder;
+}
+/*--------------METER---------------*/
+meter{
+    display: block;
+    width:80%; 
+    padding-top: 2px;
+}
+meter::-webkit-meter-optimum-value{
+    background: none;
+    background-color: #FFA69E;
 }
