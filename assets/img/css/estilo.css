@@ -2,8 +2,9 @@
 .main-container{
     display: flex;
     width: 1200px;
-    margin: 0 auto;
     font-family: 'Lato', sans-serif;
+    justify-content: space-between;
+    
 }
 /*---------------GENERAL---------------*/
 ul{
@@ -20,6 +21,10 @@ h1, h2, h3,h4{
 }
 
 /*---------------MAIN------------------*/
+main{
+    flex-basis: 60%;
+
+}
 main section h2 {
     text-transform:uppercase;
     letter-spacing: 3px;
