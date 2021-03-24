@@ -29,7 +29,7 @@ main section h2 {
     letter-spacing: 3px;
 }
 .hero{
-    background-color: #FF686B;
+    background-color: #84DCC6;
     box-shadow: 1px 1px 30px 1px #474747 inset;
     padding: 15% 0%;
     text-align: center;
@@ -48,7 +48,7 @@ main section h2 {
 /*------------------ABOUTME----------------*/
 .aboutme p{
     line-height: 2em;
-    background-color: #FFA69E;
+    background-color: #84DCC6;
     padding: 10px;
 }
 article h3,
@@ -59,10 +59,7 @@ article ul{
     list-style-type: square;
 }
 /*---------------ASIDE-----------------*/
-.foto {
-    border-radius: 50%;
-    width: 100%; 
-}
+
 aside{
     background-color: #84DCC6;
     flex-basis: 25%;
@@ -85,7 +82,7 @@ aside section h2:first-child{
 }
 .references article {
     width: 35%;
-    background-color: #FFA69E;
+    background-color: #84DCC6;
     text-align:center;
 }
 /*----------------- DL -----------------*/
@@ -108,14 +105,4 @@ dd{
 }
 dt{
     font-weight: bolder;
-}
-/*--------------METER---------------*/
-meter{
-    display: block;
-    width:80%; 
-    padding-top: 2px;
-}
-meter::-webkit-meter-optimum-value{
-    background: none;
-    background-color: #FFA69E;
 }
