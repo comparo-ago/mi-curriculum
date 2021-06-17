@@ -1,37 +1,148 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/comparo-ago/mi-curriculum/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/comparo-ago/mi-curriculum/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matias Leonardo Agobian - Resume</title>
+    <link rel="stylesheet" href="./assets/img/css/estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./vendor/fontawesome-free-5.15.1-web/css/all.css">
+</head>
+<body>
+    <div class="main-container">
+        <aside>
+           <!-- Start Social contact info-->
+           <section>
+               <h2>Social contact</h2>
+               <ul>
+                   <li><a href="https://www.facebook.com/matiagobian/" target="_blank" class="social-item-facebook">
+                        <i class="fab fa-facebook-f"></i> Facebook</a> </li><br>
+                   <li><a href="https://www.instagram.com/mvttxvgobivn/" target="_blank" class="social-item-instagram">
+                       <i class="fab fa-instagram"></i>Instagram</a> </li><br>
+                   <li><a href="https://github.com/comparo-ago" target="_blank" class="social-item-github">
+                       <i class="fab fa-github"></i>Github</a>
+                   </li><br>
+                   <li><a href=""><i class="fab fa-whatsapp"></i>+543516561773</a></li><br>
+                   <li><a href="https://lnnk.in/gLbP" target="_blank"><i class="fas fa-map-marker-alt"></i>Rincon 1760 PA, Barrio General Paz, Córdoba, Argentina.</a></li><br>
+                   <li><a href=""><i class="far fa-envelope"></i>mati.agobian@gmail.com</a></li><br>
+                   <li><a href="https://www.linkedin.com/in/matias-leonardo-agobian/" target="_blanc" class="social-item-linkedin"><i class="fab fa-linkedin"></i>Linkedin</a></li><br>
+               </ul>
+           </section>
+        <!-- start Expertice info-->
+        <section>
+            <h2>Expertice</h2>
+            <ul> 
+             <li>Web Development</li>
+             <li>Web Desing</li>
+             <li>Programer</li>
+             <li>Bartending</li>
+            </ul>
+        </section>
+        <!-- start personal info-->
+        <section>
+            <h2>Personal Information</h2>
+            <dl>
+                <dt>Location</dt>
+                <dd>Córdoba, Argentina</dd>
+                <dt>Nationality</dt>
+                <dd>Argentine</dd>
+            </dl>
+            <div class="clear"></div>
+        </section>
+        <!-- Start tech skills info-->
+        <section>
+            <h2>Technical skills</h2>
+            <ul>
+                <li>HTML5, CSS3, SASS, BOOTSTRAP</li>
+                <li>JAVASCRIPT, NODE JS, GIT, GITHUB,</li>
+                <li>REACT JS, AJAX, JQUERY, FIREBASE.</li>
+            </ul>
+        </section>
+    </aside>
+    <main>
+        <section class="hero">
+            <h1 class="titulo">Matias Leonardo Agobian</h1>
+            <h2>Front-end Developer</h2>
+        </section>
+        <section class="aboutme">
+         <h2>About me</h2>
+         <p>Tech inspired enthusiastic. Always looking for opportunities and challeges to grow! <br>
+            The ability of technology to improve human life is known to us,<br>
+            and I am convinced that having the necesary skills to master it, gives us the opportunity<br>
+            to make our best contribution to the world.
+         </p>
+        </section>
+           <!-- Start Education info-->
+           <section>
+            <h2>Education</h2>
+            <article>
+                <h3>Front-End developer Focused in react</h3>
+                <h4>CODERHOUSE</h4>
+                <p><i>October 2020 - May 2021</i></p>
+                <ol>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>GIT</li>
+                    <li>JAVASCRIPT</li>
+                    <li>REACT JS</li>
+                    <li>NODE JS</li>
+                </ol>
+                <a href="https://www.coderhouse.com/certificados/5ff49ddd26f806008f3bd7e6" target="_blank" class="certificate" >Certificado Desarrollo Web</a> <br>
+                <a href="https://www.coderhouse.com/certificados/607079b41a8bd90096626837" target="_blank" class="certificate" >Certificado JavaScript</a> <br>
+                <a href="https://www.coderhouse.com/certificados/60cbb480ed0eb30010add41c" target="_blank" class="certificate" >Certificado React JS</a> <br>
+            </article>
+            <article>
+                <h3>International Bartender</h3>
+                <h4>CELIA International gastronomy school</h4>
+                <ol>
+                    <li>Liquor Knowledge</li>
+                    <li>Styled garnish</li>
+                    <li>Work Hygene</li>
+                </ol>
+            </article>
+            </section>
+        <section>
+            <h2>Experience</h2>
+           <article>
+                <h3>Front-End Developer </h3>
+                <h4>Freelance / Dec 2020 - Current</h4>
+                <p>Front-End Web Developer. HTML, CSS, JAVASCRIPT</p>
+            </article>
+            <article>
+                <h3>Bartender</h3>
+                <h4>Shangri-La barr al jissah/ Muscat-Oman / Nov 2017 - Oct 2018</h4>
+                <p>Greeted guests with a friendly and helpful attitude at all times. 
+                    Provided guests with drink suggestions and knowledge.
+                    Became well acquainted with countless drink recipes and mixing techniques. 
+                    Maintained a clean and orderly bar. 
+                    Handled difficult and inappropriate customers with grace and professionalism. 
+                    Worked well with other bar and restaurant staff. </p>
+            </article>
+        </section>
+        <section>
+            <h2>Languages</h2>
+            <div class="references">
+           <article>
+                <figure>
+                    <img src="https://img.icons8.com/wired/64/000000/communication-skill.png" alt="icono" />
+                   <figcaption><h2>Spanish</h2></figcaption>
+                </figure>
+                <h3>Speak:Native</h3><br>
+                <h3>Write:Native</h3><br>
+            </article>
+            <article>
+                <figure>
+                    <img src="https://img.icons8.com/wired/64/000000/communication-skill.png" alt="icono" />
+                   <figcaption><h2>English</h2></figcaption>
+                </figure>
+                <h3>Speak:Advance</h3><br>
+                <h3>Write:Advance</h3><br>
+            </article>
+        </section>
+    </main>
+ 
+    </div>  
+</body>
+</html>
